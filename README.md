@@ -6,6 +6,7 @@ Here is how to run the application:
 
 - Run the command **yarn** in the root folder to install the backend dependencies 
 - Run the command **cd client/ && yarn** to install the frontend  dependencies 
+- Add a .env file following the structure shown in the **.env.example** 
 - Run the command **yarn start** in the root folder to concurrently start both the backend and the frontend
 
 Here is how to use the application:
