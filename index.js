@@ -18,4 +18,7 @@ connect(MONGODB, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("Mongo DB connected..."))
   .then(() => server.listen({ port }))
   .then(({ url }) => console.log(`Server running at ${url}`))
-  .catch((error) => console.log(error.message));
+  .catch((error) => {
+    console.log(error.message)
+    process.exit(1)
+  });
