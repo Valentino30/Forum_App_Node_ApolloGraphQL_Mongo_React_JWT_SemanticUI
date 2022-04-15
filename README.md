@@ -1,7 +1,7 @@
 # Forum App
+This forum-like app was built with **Node**, **Mongo** and **React**, using **Apollo GraphQL** to allow for efficient query handling between the frontend and the backend.
 
-This app is built with **Node**, **Mongo** and **React**, using **Apollo GraphQL** to allow for efficient query handling between the frontend and the backend.
-
+# Getting Started
 Here is how to run the application:
 
 - Run the command **yarn** in the root folder to install the backend dependencies 
@@ -9,6 +9,7 @@ Here is how to run the application:
 - Add a .env file following the structure shown in the **.env.example** 
 - Run the command **yarn start** in the root folder to concurrently start both the backend and the frontend
 
+# Usage
 Here is how to use the application:
 
 - Click on the **Register** menu button to sign up
